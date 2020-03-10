@@ -64,6 +64,7 @@ fi
 if ! command_exists mysqld ; then
   echo " ======== mariadb ========="
   brew install mariadb
+  brew install mysql
   mysqld --version
   echo " ========= END ========="
 fi
@@ -79,11 +80,13 @@ brew cask install iterm2
 # brew cask install virtualbox-extension-pack
 brew cask install virtualbox --verbose --debug
 # brew cask install virtualbox-extension-pack --verbose --debug
-brew cask install intellij-idea
-
+brew update
+brew cask install hyper
+brew cask install visual-studio-code
+brew install watchman
 
 # App Storeに公開されているアプリ
 echo " ===== App Store apps ====="
-brew install mas
 mas install 803453959  # Slack (4.2.0)
+mas install 333903271 # Twitter
 echo " ========= END ========="
