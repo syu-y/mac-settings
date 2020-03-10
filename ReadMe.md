@@ -8,7 +8,9 @@ Macで実施している個人的な環境設定集
 |:-:|:-:|:-:|
 |使用ツールなどのまとめ| ⭕️ | webアプリからツールなど特に制限なし |
 |設定ファイルの保管| ⭕️ | ツールごとにディレクトリ分け |
-| 個別の導入手順 | ❌ | 公式や記事のリンクのみ |
+| 個別の導入手順[^anchor] | ❌ | 公式や記事のリンクのみ |
+
+[^anchor]: パスとか簡単な設定は書くかも
 
 ## 必須の初期設定
 
@@ -30,3 +32,11 @@ Promptの装飾用プラグインStarship
 - [githubのリポジトリ](https://github.com/starship/starship)
 
 ### Hyper
+
+### others
+
+#### Font
+
+最初は[Ricity Font](https://rictyfonts.github.io/)を使っていたもののIconなどが豊富な[Nerd Fonts](https://github.com/ryanoasis/nerd-fonts#font-installation)に切り替え。
+
+## 各ツール
