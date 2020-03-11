@@ -7,6 +7,8 @@
 
 iTerm2の場合はascii用のFontとそれ以外のFontで2種類設定できるらしいのでiTerm2を使う場合は両方インストールして設定する。
 
+最初は[Ricity Font](https://rictyfonts.github.io/)を使っていたもののIconなどが豊富な[Nerd Fonts](https://github.com/ryanoasis/nerd-fonts#font-installation)に切り替え。
+
 ---
 
 ### Nerd Fonts
