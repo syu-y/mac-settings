@@ -26,14 +26,25 @@ zshを使いやすくカスタマイズするために以下を導入した。
 
 ### Prezto
 
+昔のMacはoh-my-zshだったけど重かったため移行。
+
 ### Starship
 
 Promptの装飾用プラグインStarship
+採用理由 = 流行ってた & 見やすかった
 
 - [公式ページ](https://starship.rs/)
 - [githubのリポジトリ](https://github.com/starship/starship)
 
 ### Hyper
+
+ちょいちょいバグる。
+iTerm2でもいい気がしたけど軽量（という噂）さと設定ファイルがjsだったので採用してみた。
+
+### vim
+
+ターミナルのエディタはvimを使用。
+採用理由 = 一番馴染みがあったから。
 
 ### others
 
