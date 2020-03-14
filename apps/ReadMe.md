@@ -1,6 +1,7 @@
 # Apps
 
 便利なアプリやツール
+Editor系はvimでいいならvimだけでいい気もする。
 
 | Tool | About | Category | Using(2020) | Free |
 |:--|:-|:--|:--|:--|
@@ -16,3 +17,4 @@
 |[EdgeView 2](http://edgeview.co.kr/ja/%e3%83%88%e3%83%83%e3%83%97/)|軽量なイメージビューア。|Media|○|×|
 |[zoom](https://zoom.us/jp-jp/meetings.html)|ビデオ会議ツール。|Meeting|○|○|
 |[Scrapbox](https://scrapbox.io)|メモ帳のように使えるwiki|?|○|○|
+|[CotEditor](https://coteditor.com/)|テキストエディタ|Editor|○|○|
