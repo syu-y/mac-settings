@@ -1,9 +1,25 @@
 #!/bin/bash
 
+# -------------------- #
+# 関数
+# -------------------- #
 # コマンド可否判定
 function command_exists {
   command -v "$1" > /dev/null;
 }
+
+# Fontのインストール
+function nerd_fonts {
+  git clone --branch=master --depth 1 https://github.com/ryanoasis/nerd-fonts.git;
+  cd nerd-fonts;
+  ./install.sh $1  # "Source" to install Sauce Code Nerd Font
+  cd ..;
+  rm -rf nerd-fonts;
+}
+
+# -------------------- #
+# インストール
+# -------------------- #
 
 # Homebrew
 # 各種ツールのインスール用
@@ -84,9 +100,13 @@ brew update
 brew cask install hyper
 brew cask install visual-studio-code
 brew install watchman
+brew cask install docker
 
 # App Storeに公開されているアプリ
 echo " ===== App Store apps ====="
 mas install 803453959  # Slack (4.2.0)
 mas install 333903271 # Twitter
 echo " ========= END ========="
+
+# Nerd Fontのインストール
+nerd_fonts SourceCodePro
