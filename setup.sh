@@ -108,5 +108,15 @@ mas install 803453959  # Slack (4.2.0)
 mas install 333903271 # Twitter
 echo " ========= END ========="
 
+# -------------------- #
+# ターミナル関連
+# -------------------- #
+
+# Zplug
+brew install zplug
+
 # Nerd Fontのインストール
 nerd_fonts SourceCodePro
+
+# 追加コマンド
+brew install rename
